@@ -1,0 +1,41 @@
+#ASSIGNING ELEMENTS TO DIFFERENT LISTS
+my_list = ['geeks', 'for', 'geeks'] 
+another_list = [6, 0, 4, 1] 
+my_list.append(another_list) 
+print my_list
+
+Output:
+['geeks', 'for', 'geeks', [6, 0, 4, 1]]
+
+my_list = ['geeks', 'for'] 
+another_list = [6, 0, 4, 1] 
+my_list.extend(another_list) 
+print my_list 
+
+Output:
+['geeks', 'for', 6, 0, 4, 1]
+
+
+# ACCESSING ELEMENTS FROM A TUPLE
+my_data = ("hi", "hello", "bye")
+
+# displaying all elements
+    print(my_data)
+
+# accessing first element
+    print(my_data[0])
+# accessing third element
+    print(my_data[2])
+
+Output:
+('hi', 'hello', 'bye')
+hi
+bye
+
+#DELETING DIFFERENT DICTIONARY ELEMENTS
+identity = {"name": "StudyTonight", "type": "Educational", "link":}
+del identity["linl"]
+print(identity);
+
+OUTPUT:
+{"name": "StudyTonight", "type": "Educational"}
